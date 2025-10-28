@@ -16,7 +16,7 @@ status-website:
   # baseUrl: /movementbyana.hr-status
   favicon: https://movementbyana.hr/favicon.ico
   logoUrl: https://movementbyana.hr/images/logo.svg
-  themeUrl: http://status.movementbyana.hr/mptheme.css
+  themeUrl: https://status.movementbyana.hr/mptheme.css
   name: movementbyana.hr
   introTitle: "**Status** za movementbyana.hr stranicu."
   introMessage: Ovaj status monitor prikazuje podatke u **stvarnom vremenu**
