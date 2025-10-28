@@ -1,36 +1,92 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: Illyricon # Your GitHub organization or username, where this repository lives
+repo: movementbyana-status # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
-
+  - name: movementbyana.hr
+    url: https://movementbyana.hr
+    type: globalping
+    location: Zagreb
+assignees: # Users to assign downtime issues (optional)
+  - codedoga
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
-  navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+  cname: status.movementbyana.hr
+  # baseUrl: /movementbyana.hr-status
+  favicon: https://movementbyana.hr/favicon.ico
+  logoUrl: https://movementbyana.hr/images/logo.svg
+  themeUrl: https://status.movementbyana.hr/mptheme.css
+  name: movementbyana.hr
+  introTitle: "**Status** za movementbyana.hr stranicu."
+  introMessage: Ovaj status monitor prikazuje podatke u **stvarnom vremenu**
+  # navbar:
+  #   - title: Status
+  #     href: /
+  #   - title: GitHub
+  #     href: https://github.com/$OWNER/$REPO
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
+i18n:
+  activeIncidents: Aktivni incidenti
+  allSystemsOperational: Svi sustavi rade ispravno
+  incidentReport: "Izvještaj o incidentu #$NUMBER →"
+  activeIncidentSummary: Otvoren $DATE s $POSTS objava
+  incidentTitle: Detalji incidenta $NUMBER
+  incidentDetails: Detalji incidenta
+  incidentFixed: Riješeno
+  incidentOngoing: U tijeku
+  incidentOpenedAt: Otvoren
+  incidentClosedAt: Zatvoren
+  incidentViewOnGitHub: Pogledaj i pretplati se na GitHubu
+  incidentCommentSummary: Objavljeno $DATE od strane $AUTHOR
+  incidentBack: ← Povratak na sve incidente
+  pastIncidents: Prošli incidenti
+  pastIncidentsResolved: Riješeno u $MINUTES minuta s $POSTS objava
+  liveStatus: Trenutni status
+  overallUptime: "Ukupna dostupnost: $UPTIME"
+  overallUptimeTitle: Ukupna dostupnost
+  averageResponseTime: "Prosječno vrijeme odziva: $TIMEms"
+  averageResponseTimeTitle: Prosječno vrijeme odziva
+  sevelDayResponseTime: Odziv u zadnjih 7 dana
+  responseTimeMs: Vrijeme odziva (ms)
+  up: Dostupno
+  down: Nedostupno
+  degraded: Smanjena funkcionalnost
+  ms: ms
+  loading: Učitavanje
+  navGitHub: GitHub
+  footer: Omogućava [codedoga](https://codedoga.eu)
+  rateLimitExceededTitle: Prekoračeno ograničenje upita
+  rateLimitExceededIntro: Premašili ste broj zahtjeva koje možete napraviti u jednom satu, pa ćete morati pričekati prije nego ponovno pristupite ovoj stranici. Alternativno, možete dodati GitHub osobni pristupni token za nastavak korištenja stranice.
+  rateLimitExceededWhatDoesErrorMean: Što znači ova pogreška?
+  rateLimitExceededErrorMeaning: Ova web-stranica koristi GitHub API za dohvat aktualnih podataka o statusu naših stranica. Zadano, GitHub dopušta svakoj IP adresi 60 zahtjeva na sat, što ste vi iskoristili.
+  rateLimitExceededErrorHowCanFix: Kako to mogu riješiti?
+  rateLimitExceededErrorFix: Možete pričekati jedan sat kako bi se ograničenje za vašu IP adresu resetiralo. Alternativno, možete dodati svoj GitHub osobni pristupni token, što vam daje dodatnih 5.000 zahtjeva na sat.
+  rateLimitExceededGeneratePAT: Saznajte kako generirati osobni pristupni token
+  rateLimitExceededHasSet: Imate postavljen osobni pristupni token.
+  rateLimitExceededRemoveToken: Ukloni token
+  rateLimitExceededGitHubPAT: GitHub osobni pristupni token
+  rateLimitExceededCopyPastePAT: Kopirajte i zalijepite svoj token
+  rateLimitExceededSaveToken: Spremi token
+  errorTitle: Došlo je do pogreške
+  errorIntro: Dogodila se pogreška pri pokušaju dohvaćanja najnovijeg statusa.
+  errorText: Pokušajte ponovno za nekoliko trenutaka.
+  errorHome: Idi na početnu stranicu
+  pastScheduledMaintenance: Prošla planirana održavanja
+  scheduledMaintenance: Planirana održavanja
+  scheduledMaintenanceSummaryStarted: Započeto $DATE na $DURATION minuta
+  scheduledMaintenanceSummaryStarts: Počinje $DATE na $DURATION minuta
+  startedAt: Započeto
+  startsAt: Počinje
+  duration: Trajanje
+  durationMin: $DURATION minuta
+  incidentCompleted: Završeno
+  incidentScheduled: Zakazano
+  duration24H: 24h
+  duration7D: 7d
+  duration30D: 30d
+  duration1Y: 1g
+  durationAll: sve
+  locale: hr-HR
