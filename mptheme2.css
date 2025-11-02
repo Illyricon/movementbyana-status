@@ -1,5 +1,5 @@
 :root {
-  --body-background-color: radial-gradient(circle, #fff 0%, #d2d2d2 90%);
+  --body-background-color: #d2d2d2 radial-gradient(circle, #fff 0%, #d2d2d2 90%);
   --body-text-color: #222;
   --card-background-color: #fff8;
   --card-border-color: #9241b5;
