@@ -6,7 +6,7 @@ sites:
   - name: movementbyana.hr
     url: https://movementbyana.hr
     type: globalping
-    location: Zagreb
+    location: AS31012
 assignees: # Users to assign downtime issues (optional)
   - codedoga
 status-website:
