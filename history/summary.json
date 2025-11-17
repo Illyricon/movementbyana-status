@@ -5,16 +5,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/movementbyana.hr.ico",
     "slug": "movementbyana-hr",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 108,
-    "timeDay": 106,
-    "timeWeek": 111,
-    "timeMonth": 108,
-    "timeYear": 108,
-    "dailyMinutesDown": {}
+    "uptime": "99.91%",
+    "uptimeDay": "98.15%",
+    "uptimeWeek": "99.74%",
+    "uptimeMonth": "99.91%",
+    "uptimeYear": "99.91%",
+    "time": 109,
+    "timeDay": 117,
+    "timeWeek": 114,
+    "timeMonth": 109,
+    "timeYear": 109,
+    "dailyMinutesDown": {
+      "2025-11-17": 27
+    }
   }
 ]
