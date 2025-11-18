@@ -4,18 +4,19 @@
     "url": "https://movementbyana.hr",
     "icon": "https://icons.duckduckgo.com/ip3/movementbyana.hr.ico",
     "slug": "movementbyana-hr",
-    "status": "up",
+    "status": "down",
     "uptime": "99.91%",
-    "uptimeDay": "98.15%",
-    "uptimeWeek": "99.74%",
+    "uptimeDay": "98.14%",
+    "uptimeWeek": "99.73%",
     "uptimeMonth": "99.91%",
     "uptimeYear": "99.91%",
-    "time": 109,
-    "timeDay": 112,
-    "timeWeek": 113,
-    "timeMonth": 109,
-    "timeYear": 109,
+    "time": 107,
+    "timeDay": 100,
+    "timeWeek": 109,
+    "timeMonth": 107,
+    "timeYear": 107,
     "dailyMinutesDown": {
+      "2025-11-18": 0,
       "2025-11-17": 27
     }
   }
