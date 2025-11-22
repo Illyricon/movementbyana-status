@@ -16,4 +16,4 @@
 
 <!--end: status pages-->
 
-[**Visit our status website →**](https://status.movementbyana.hr)
+[**Posjeti status stranicu →**](https://status.movementbyana.hr)
