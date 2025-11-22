@@ -5,6 +5,8 @@ repo: movementbyana-status # The name of this repository
 sites:
   - name: movementbyana.hr
     url: https://movementbyana.hr
+    type: globalping
+    location: AS31012
 assignees: # Users to assign downtime issues (optional)
   - codedoga
 status-website:
@@ -24,9 +26,30 @@ status-website:
   #   - title: GitHub
   #     href: https://github.com/$OWNER/$REPO
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+skipDescriptionUpdate: true
+skipPoweredByReadme: true
+
+workflowSchedule:
+  graphs: "5 */2 * * *"
+  responseTime: "0 */2 * * *"
+  staticSite: "10 0 * * 1"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * 1"
+  updates: "0 3 * * *"
+  uptime: "*/5 * * * *"
+
 i18n:
+  url: URL
+  status: Status
+  history: Povijest
+  responseTime: Vrijeme odziva
+  uptime: uptime
+  uptimeDay: 24-satni uptime
+  uptimeWeek: 7-dnevni uptime
+  uptimeMonth: 30-dnevni uptime
+  uptimeYear: 1-godišnji uptime
+  liveStatusHtmlComment: "<!--status uživo-->"
+  responseTimeGraphAlt: Grafikon vremena odziva
   activeIncidents: Aktivni incidenti
   allSystemsOperational: Svi sustavi rade ispravno
   incidentReport: "Izvještaj o incidentu #$NUMBER →"
@@ -49,6 +72,10 @@ i18n:
   averageResponseTimeTitle: Prosječno vrijeme odziva
   sevelDayResponseTime: Odziv u zadnjih 7 dana
   responseTimeMs: Vrijeme odziva (ms)
+  responseTimeDay: 24-satno vrijeme odziva
+  responseTimeWeek: 7-dnevno vrijeme odziva
+  responseTimeMonth: 30-dnevno vrijeme odziva
+  responseTimeYear: 1-godišnje vrijeme odziva
   up: Dostupno
   down: Nedostupno
   degraded: Smanjena funkcionalnost
@@ -87,4 +114,7 @@ i18n:
   duration30D: 30d
   duration1Y: 1g
   durationAll: sve
+  degradedPerformance: "🟨 Degradirane performanse"
+  completeOutage: "🟥 Potpuni prekid"
+  partialOutage: "🟧 Djelomični prekid"
   locale: hr-HR
