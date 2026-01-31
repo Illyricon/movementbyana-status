@@ -6,15 +6,15 @@
     "slug": "movementbyana-hr",
     "status": "up",
     "uptime": "99.97%",
-    "uptimeDay": "97.27%",
+    "uptimeDay": "100.00%",
     "uptimeWeek": "99.61%",
     "uptimeMonth": "99.91%",
     "uptimeYear": "99.97%",
-    "time": 217,
-    "timeDay": 2281,
-    "timeWeek": 525,
-    "timeMonth": 357,
-    "timeYear": 217,
+    "time": 243,
+    "timeDay": 2134,
+    "timeWeek": 813,
+    "timeMonth": 423,
+    "timeYear": 243,
     "dailyMinutesDown": {
       "2026-01-29": 39
     }
