@@ -1,4 +1,4 @@
-# [![Movementbyana](https://movementbyana.hr/icons/android-chrome-192x192.png)](https://movementbyana.hr)
+# [![Movementbyana](https://movementbyana.hr/images/logo.svg)](https://movementbyana.hr)
 
 [![Uptime CI](https://github.com/Illyricon/movementbyana-status/workflows/Uptime%20CI/badge.svg)](https://github.com/Illyricon/movementbyana-status/actions?query=workflow%3A%22Uptime+CI%22)
 [![Response Time CI](https://github.com/Illyricon/movementbyana-status/workflows/Response%20Time%20CI/badge.svg)](https://github.com/Illyricon/movementbyana-status/actions?query=workflow%3A%22Response+Time+CI%22)
