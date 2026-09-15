@@ -90,9 +90,11 @@ i18n:
   rateLimitExceededErrorFix: Možete pričekati jedan sat kako bi se ograničenje za vašu IP adresu resetiralo. Alternativno, možete dodati svoj GitHub osobni pristupni token, što vam daje dodatnih 5.000 zahtjeva na sat.
   rateLimitExceededGeneratePAT: Saznajte kako generirati osobni pristupni token
   rateLimitExceededHasSet: Imate postavljen osobni pristupni token.
+  # ast-grep-ignore
   rateLimitExceededRemoveToken: Ukloni token
   rateLimitExceededGitHubPAT: GitHub osobni pristupni token
   rateLimitExceededCopyPastePAT: Kopirajte i zalijepite svoj token
+  # ast-grep-ignore
   rateLimitExceededSaveToken: Spremi token
   errorTitle: Došlo je do pogreške
   errorIntro: Dogodila se pogreška pri pokušaju dohvaćanja najnovijeg statusa.
